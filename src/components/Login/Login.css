@@ -1,0 +1,101 @@
+.loginForm{
+    width: 55%;
+    margin: auto;
+}
+.loginBtn{
+    background: #71BA58;
+    color:white !important;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+}
+.loginBtn:hover{
+    background: #54973d;
+    transition:all 0.5s;
+}
+.inputDesign input{
+    border:0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    background: none;
+}
+
+.orStyle {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: 1.5rem;
+}
+.orStyle span {
+    margin: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+.orStyle span::before {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+.orStyle span::after {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+}
+
+.otherSignInBtn{
+    width: 60%;
+    margin: auto;
+}
+.otherSignInBtn button {
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 25px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+}
+.otherSignInBtn button:hover{
+    background: rgba(231, 231, 231, 0.746);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: all 0.4s;
+}
+
+@media only screen and (max-width: 576px) {
+    .loginForm{
+        width: 100%;
+    }
+    .iconDesign{
+        display: none;
+    }
+    .otherSignInBtn button {
+        width: auto;
+        margin: 2rem auto;
+        border: 0;
+        font-size: 23px;
+    }
+    .iconStyle{
+        font-size: 2.5rem !important;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .loginForm{
+        width: 85%;
+    }
+  }

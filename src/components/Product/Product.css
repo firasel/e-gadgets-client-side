@@ -1,0 +1,25 @@
+.cardDesign{
+    width: 100%;
+    height:100%;
+    background: white;
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cardDesign:hover{
+    box-shadow: rgb(212, 212, 212) 0px 1px 0px, rgb(212, 212, 212) 0px 8px 24px, rgb(212, 212, 212) 0px 16px 48px;
+    transform: scale(1.01);
+    transition: all 0.3s;
+}
+.cardImg{
+    width: 90%;
+    margin-top: 0.8rem !important;
+    border-radius: 7px;
+    margin: auto;
+    max-height: 15rem;
+}
+@media only screen and (max-width: 576px) {
+    .cardMargin{
+        margin: 10px auto !important;
+    }
+  }

@@ -1,0 +1,14 @@
+.itemTitle{
+    background-color: #F5F6FA;
+    border: 0;
+    border-radius: 8px;
+}
+.productItemStyle{
+    width:95%;
+    padding: 8px 0;
+    margin: auto;
+}
+.productItemStyle:hover{
+    background-color: #ebebeb;
+    border-radius:6px;
+}

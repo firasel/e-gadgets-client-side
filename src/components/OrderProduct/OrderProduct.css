@@ -1,0 +1,44 @@
+.orderCard{
+    width: 100%;
+    height: auto;
+    background:rgb(229 229 229 / 95%);
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: end !important;
+    margin: .8rem 1rem;
+}
+.orderCardTitle{
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding: 0;
+}
+.orderCardTitle img{
+    width: 8rem;
+    height: 8rem;
+    padding: .5rem;
+    border-radius: 15px;
+}
+.orderStatus button{
+    color: #fff;
+    background-color: #191b1c !important;
+    border-color: #3c3c3c !important;
+    border-radius:25px;
+}
+@media only screen and (max-width: 576px) {
+    .orderCardTitle{
+        align-items: center;
+    }
+    .orderCardTitle img{
+        width: 7rem;
+        height: 7rem;
+        margin: .5rem;
+    }
+    .orderStatus{
+        text-align: start;
+        padding-left: 1rem;
+        margin-bottom: .8rem;
+    }
+
+}

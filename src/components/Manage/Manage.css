@@ -1,0 +1,70 @@
+.sideBar{
+    background-color: #203D37;
+    overflow: hidden;
+    margin:0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.sideBarContent{
+    position: fixed;
+    width: 16.6%;
+}
+.sidebarTitle{
+    font-size: 2.3rem !important;
+    font-family: 'Niconne', cursive;
+    font-weight: 700 !important;
+    text-shadow: 2px 2px 0px #828282fa, 3px 3px 0px #898989;
+    color: #ffffff;
+    text-align: center;
+}
+.menuBtn{
+    color: white !important;
+    font-size: 24px;
+}
+.menuBtn:hover{
+    background: #2D524A;
+}
+.sidebarBtn{
+    width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    color: white !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: start;
+    padding: 1rem .3rem;
+    padding-left: 2rem;
+}
+.sidebarBtn:hover{
+    background-color: #2D524A;
+}
+@media only screen and (max-width: 992px) {
+    .sideBarContent{
+        position: fixed;
+        width: 25%;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .sideBarContent{
+        position: fixed;
+        width: 33.3%;
+    }
+  }
+@media only screen and (max-width: 576px) {
+    .sideBarContent {
+        position: relative;
+        width: 100%;
+    }
+    .menuItem{
+        display: flex;
+        align-items: center;
+        padding: 0 5px;
+    }
+    .sidebarBtn {
+        border-radius: 7px;
+        color: white !important;
+        font-size: 80%;
+        font-weight: 500;
+    }
+  }

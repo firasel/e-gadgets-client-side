@@ -1,0 +1,31 @@
+.nvabarBrand {
+    font-size: 2.3rem !important;
+    font-family: 'Niconne', cursive;
+    font-weight: 700 !important;
+    text-shadow: 2px 2px 0px #6dec65fa, 3px 3px 0px #aaec95;
+}
+.navbarBtn {
+    background-color: #71BA58;
+    color: white !important;
+    font-weight: 650 !important;
+    padding: 0.6rem !important;
+    border-radius: 5px;
+    border: 0;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.navbarBtn:hover {
+    background-color: #569840 !important;
+    transition: all 0.5s !important;
+}
+.navbarLink a {
+    font-weight: 600;
+    margin: 0.5rem 1rem;
+    font-size: 18px;
+}
+.navbarLink a:hover {
+    background-color: #e4e4e4;
+    transition: all 0.4s;
+    border: 0;
+    border-radius: 5px;
+}
