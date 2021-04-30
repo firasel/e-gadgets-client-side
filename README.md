@@ -1,18 +1,10 @@
 # E Gadgets
 ### This is an e-commerce website
 # [Live View](https://egadgets-fip.web.app/)
-## client side Features
-- You can see all the Product.
-- log in system with Google Sign In.
-- log out system.
-- loading spinner.
-- Product Order system.
-- You can see your all orders for specific account.
-
-## Admin pages Features
-- Add product in mongodb database.
-- delete product.
-- redirect to home page/client side.
+## Features
+- The user can log in with firebase if he wants and The user can log out if he wants.
+- If the user wants, he can go to the dashboard and add and remove any product.
+- The user can order any product and he can see all orders when he goes to the order history.
 
 ## Using Technology
 - private Route system
